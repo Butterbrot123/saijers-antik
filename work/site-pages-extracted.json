@@ -1,0 +1,1306 @@
+[
+  {
+    "slug": "home",
+    "requestedUrl": "https://saijersantik.de/",
+    "bodyClass": "inter_c15e96cb-module__0bjUvq__variable outfit_a5313c62-module__a8eF5G__variable parisienne_e4d025bc-module__nVcUfG__variable architects_daughter_93758272-module__X_UW1G__variable font-outfit bg-white text-gray-900 antialiased",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "text-2xl font-bold tracking-wide text-white hover:text-coral-red transition-colors duration-300",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "Saijers Antikankauf"
+      },
+      {
+        "alt": "",
+        "cls": "text-5xl md:text-6xl font-bold mb-5 text-[#002353] aos-init aos-animate",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "Antik Ankauf – Wir kaufen Antik, Trödel & Schmuck"
+      },
+      {
+        "alt": "",
+        "cls": "text-2xl md:text-3xl lg:text-4xl font-bold text-zinc-900 mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "Wer, sind wir?"
+      },
+      {
+        "alt": "",
+        "cls": "text-3xl md:text-4xl font-bold text-[#002353] mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h2",
+        "text": "Warum sollten Sie mit uns Zusammenarbeiten?"
+      },
+      {
+        "alt": "",
+        "cls": "text-xl font-semibold text-[#002353] mb-2",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Schätzung"
+      },
+      {
+        "alt": "",
+        "cls": "text-xl font-semibold text-[#002353] mb-2",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Ankauf"
+      },
+      {
+        "alt": "",
+        "cls": "text-xl font-semibold text-[#002353] mb-2",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Bundesweit"
+      },
+      {
+        "alt": "",
+        "cls": "text-xl font-semibold text-[#002353] mb-2",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Haushaltsauflösungen"
+      },
+      {
+        "alt": "",
+        "cls": "text-xl font-semibold text-[#002353] mb-2",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Vertrauen"
+      },
+      {
+        "alt": "",
+        "cls": "text-xl font-semibold text-[#002353] mb-2",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Erfahrung"
+      },
+      {
+        "alt": "",
+        "cls": "text-4xl md:text-5xl font-bold text-[#002353] mb-6 aos-init",
+        "href": "",
+        "src": "",
+        "tag": "h2",
+        "text": "Was kaufen wir an?"
+      },
+      {
+        "alt": "",
+        "cls": "text-2xl md:text-3xl font-semibold text-[#002353] mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "Ankauf von Fotos, Fotoalben und Postkarten"
+      },
+      {
+        "alt": "",
+        "cls": "text-2xl md:text-3xl font-semibold text-[#002353] mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "Ankauf von Schmuck aller Art"
+      },
+      {
+        "alt": "",
+        "cls": "text-2xl md:text-3xl font-semibold text-[#002353] mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "Ankauf von Asiatische Antiquitäten"
+      },
+      {
+        "alt": "",
+        "cls": "text-2xl md:text-3xl font-semibold text-[#002353] mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "Ankauf von Dänisches Design"
+      },
+      {
+        "alt": "",
+        "cls": "text-4xl md:text-5xl font-bold text-[#002353] mb-4 aos-init",
+        "href": "",
+        "src": "",
+        "tag": "h2",
+        "text": "Was andere über uns sagen"
+      },
+      {
+        "alt": "",
+        "cls": "text-3xl md:text-4xl font-bold mb-4 text-[#002353] leading-snug drop-shadow-lg",
+        "href": "",
+        "src": "",
+        "tag": "h2",
+        "text": "Möchten Sie Antik verkaufen oder uns in unserem Laden besuchen?"
+      },
+      {
+        "alt": "",
+        "cls": "text-2xl font-bold text-white mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "Saijers Antik"
+      },
+      {
+        "alt": "",
+        "cls": "text-lg font-semibold text-white mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Öffnungszeiten"
+      },
+      {
+        "alt": "",
+        "cls": "text-lg font-semibold text-white mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Navigation"
+      },
+      {
+        "alt": "",
+        "cls": "text-lg font-semibold text-white mb-4",
+        "href": "",
+        "src": "",
+        "tag": "h4",
+        "text": "Folgen Sie uns"
+      }
+    ],
+    "images": [
+      {
+        "alt": "Header Background",
+        "cls": "object-cover object-center brightness-105",
+        "href": "",
+        "src": "https://saijersantik.de/_next/static/media/starthintergrund.b2e9d660.jpg",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "alt": "Ines und Merle Saijers",
+        "cls": "w-full h-auto object-cover transition-transform duration-500 ease-in-out hover:scale-105",
+        "href": "",
+        "src": "https://saijersantik.de/_next/static/media/wir.8f18abd9.png",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "alt": "Alte Fotos und Alben",
+        "cls": "rounded-2xl shadow-md",
+        "href": "",
+        "src": "https://saijersantik.de/_next/static/media/foto.f1b59562.jpg",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "alt": "Schmuckstücke",
+        "cls": "rounded-2xl shadow-md",
+        "href": "",
+        "src": "https://saijersantik.de/_next/static/media/brosche.c8321d2a.png",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "alt": "Asiatische Antiquitäten",
+        "cls": "rounded-2xl shadow-md",
+        "href": "",
+        "src": "https://saijersantik.de/_next/static/media/asia.803a0fc7.png",
+        "tag": "img",
+        "text": ""
+      },
+      {
+        "alt": "Dänisches Design",
+        "cls": "rounded-2xl shadow-md",
+        "href": "",
+        "src": "https://saijersantik.de/_next/static/media/glas.ed31a237.png",
+        "tag": "img",
+        "text": ""
+      }
+    ],
+    "inputs": [],
+    "links": [
+      {
+        "alt": "",
+        "cls": "block",
+        "href": "https://saijersantik.de/",
+        "src": "",
+        "tag": "a",
+        "text": "Saijers Antikankauf"
+      },
+      {
+        "alt": "",
+        "cls": " relative px-2 py-1 text-gray-200 font-medium tracking-wide  transition-all duration-300 ease-out hover:text-white group ",
+        "href": "https://saijersantik.de/",
+        "src": "",
+        "tag": "a",
+        "text": "Home"
+      },
+      {
+        "alt": "",
+        "cls": " relative px-2 py-1 text-gray-200 font-medium tracking-wide  transition-all duration-300 ease-out hover:text-white group ",
+        "href": "https://saijersantik.de/ueber-uns",
+        "src": "",
+        "tag": "a",
+        "text": "Über Uns"
+      },
+      {
+        "alt": "",
+        "cls": " relative px-2 py-1 text-gray-200 font-medium tracking-wide  transition-all duration-300 ease-out hover:text-white group ",
+        "href": "https://saijersantik.de/Dienstleistungen",
+        "src": "",
+        "tag": "a",
+        "text": "Dienstleistungen"
+      },
+      {
+        "alt": "",
+        "cls": " relative px-2 py-1 text-gray-200 font-medium tracking-wide  transition-all duration-300 ease-out hover:text-white group ",
+        "href": "https://saijersantik.de/Ankauf",
+        "src": "",
+        "tag": "a",
+        "text": "Ankauf"
+      },
+      {
+        "alt": "",
+        "cls": " relative px-2 py-1 text-gray-200 font-medium tracking-wide  transition-all duration-300 ease-out hover:text-white group ",
+        "href": "https://saijersantik.de/Laden",
+        "src": "",
+        "tag": "a",
+        "text": "Laden"
+      },
+      {
+        "alt": "",
+        "cls": " relative px-2 py-1 text-gray-200 font-medium tracking-wide  transition-all duration-300 ease-out hover:text-white group ",
+        "href": "https://saijersantik.de/Kontakt",
+        "src": "",
+        "tag": "a",
+        "text": "Kontakt"
+      },
+      {
+        "alt": "",
+        "cls": "relative group",
+        "href": "https://saijersantik.de/",
+        "src": "",
+        "tag": "a",
+        "text": "Home"
+      },
+      {
+        "alt": "",
+        "cls": "relative group",
+        "href": "https://saijersantik.de/ueber-uns",
+        "src": "",
+        "tag": "a",
+        "text": "Über Uns"
+      },
+      {
+        "alt": "",
+        "cls": "relative group",
+        "href": "https://saijersantik.de/Dienstleistungen",
+        "src": "",
+        "tag": "a",
+        "text": "Dienstleistungen"
+      },
+      {
+        "alt": "",
+        "cls": "relative group",
+        "href": "https://saijersantik.de/Ankauf",
+        "src": "",
+        "tag": "a",
+        "text": "Ankauf"
+      },
+      {
+        "alt": "",
+        "cls": "relative group",
+        "href": "https://saijersantik.de/Laden",
+        "src": "",
+        "tag": "a",
+        "text": "Laden"
+      },
+      {
+        "alt": "",
+        "cls": "relative group",
+        "href": "https://saijersantik.de/Kontakt",
+        "src": "",
+        "tag": "a",
+        "text": "Kontakt"
+      },
+      {
+        "alt": "",
+        "cls": "text-white font-semibold px-8 py-3 rounded-xl shadow-lg transition-all duration-300 focus:outline-none focus:ring-2 bg-gradient-to-r from-black to-black hover:from-orange-700 hover:to-orange-500 hover:scale-105 focus:ring-blue-500",
+        "href": "https://saijersantik.de/ueber-uns",
+        "src": "",
+        "tag": "a",
+        "text": "Mehr Erfahren"
+      },
+      {
+        "alt": "",
+        "cls": "text-white font-semibold px-8 py-3 rounded-xl shadow-lg transition-all duration-300 focus:outline-none focus:ring-2 bg-gradient-to-r from-black to-black hover:from-orange-700 hover:to-orange-500 hover:scale-105 focus:ring-blue-500",
+        "href": "https://saijersantik.de/Kontakt",
+        "src": "",
+        "tag": "a",
+        "text": "Jetzt Antik verkaufen"
+      },
+      {
+        "alt": "",
+        "cls": "hover:text-coral-red transition-colors duration-200",
+        "href": "https://saijersantik.de/FAQ",
+        "src": "",
+        "tag": "a",
+        "text": "FAQ"
+      },
+      {
+        "alt": "",
+        "cls": "hover:text-coral-red transition-colors duration-200",
+        "href": "https://saijersantik.de/Impressum",
+        "src": "",
+        "tag": "a",
+        "text": "Impressum"
+      },
+      {
+        "alt": "",
+        "cls": "hover:text-coral-red transition-colors duration-200",
+        "href": "https://saijersantik.de/Datenschutz",
+        "src": "",
+        "tag": "a",
+        "text": "Datenschutz"
+      },
+      {
+        "alt": "",
+        "cls": "hover:text-coral-red transition-colors duration-200",
+        "href": "https://saijersantik.de/Blog",
+        "src": "",
+        "tag": "a",
+        "text": "Blog"
+      },
+      {
+        "alt": "",
+        "cls": "w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-coral-red hover:text-white transition-all duration-300",
+        "href": "https://saijersantik.de/",
+        "src": "",
+        "tag": "a",
+        "text": ""
+      },
+      {
+        "alt": "",
+        "cls": "w-10 h-10 flex items-center justify-center bg-white/10 rounded-full hover:bg-coral-red hover:text-white transition-all duration-300",
+        "href": "https://saijersantik.de/",
+        "src": "",
+        "tag": "a",
+        "text": ""
+      }
+    ],
+    "mainText": "Antik Ankauf – Wir kaufen Antik, Trödel & Schmuck\nWer, sind wir?\n\nWir, Ines Wiechmann Saijers und Merle Saijers, sind Ihr zuverlässiger Ansprechpartner für professionellen Antik Ankauf. Wir kaufen klassische Antiquitäten, Schmuck, Design und Trödel sowohl national als auch international an.\n\nAls Experten für Antik Ankauf in Kappeln (Schleswig-Holstein). Sind wir regional verwurzelt und gleichzeitig bundesweit für Sie tätig, unter anderem in Kiel, Eckernförde, Hamburg, Flensburg, Schleswig, Husum, und vielen weiteren Städten.\n\nUnser engagiertes Team steht für eine fachkundige Bewertung, transparente Abläufe und faire Preise im Antik Ankauf. Unser Ziel ist es, Ihnen eine seriöse, unkomplizierte Abwicklung und das bestmögliche Ergebnis zu bieten.\n\nMehr Erfahren\nWarum sollten Sie mit uns Zusammenarbeiten?\nSchätzung\n\nSie möchten Antiquitäten oder Schmuck verkaufen, wissen aber nicht, wie viel sie wert sind? Wir kommen in Kappeln und Umgebung vorbei und bieten eine unverbindliche, faire Schätzung Ihrer Objekte.\n\nAnkauf\n\nWir kaufen Antiquitäten, Schmuck, Münzen, Postkarten und dänische Design-Möbel. Auch komplette Sammlungen und Nachlässe sind willkommen.\n\nBundesweit\n\nNeben Kappeln und Schleswig-Holstein sind wir bundesweit auf Auktionen in Deutschland, den Niederlanden und Skandinavien unterwegs.\n\nHaushaltsauflösungen\n\nWir kaufen auch Haushaltsauflösungen und wir gehen bei Haushaltsauflösungen diskret und respektvoll vor. Ganz gleich, ob es um Umzüge, Nachlässe oder andere Gründe geht. Keine Antiquität bleibt unbeachtet.\n\nVertrauen\n\nWir arbeiten transparent, offen und mit vollem Respekt. Vertrauen ist unser Fundament, wenn Sie Antik verkaufen möchten.\n\nErfahrung\n\nLangjährige Erfahrung im Antikhandel garantiert eine faire, transparente und professionelle Bewertung Ihrer Objekte, in Kappeln, Schleswig-Holstein und bundesweit.\n\nWas kaufen wir an?\nAnkauf von Fotos, Fotoalben und Postkarten\n\nUnser Interesse an den Ankauf von Fotos ist vielfältig. Wir kaufen Fotos aus Kriegs- und Friedenszeiten, Kunstfotos, historische Bilder, Fotos aus den Kolonien und private Sammlungen. Wir schätzen die Einzigartigkeit jedes Fotos und arbeiten mit Museen, Archiven und privaten Sammlern zusammen, um diese Vielfalt zu bewahren.\n\nAnkauf von Schmuck aller Art\n\nWir kaufen hauptsächlich antiken Schmuck und Modeschmuck. Auch reparaturbedürftige Stücke kaufen wir gerne an und arbeiten mit erfahrenen Goldschmieden zusammen, um sie fachgerecht wiederherzustellen.\n\nAnkauf von Asiatische Antiquitäten\n\nUnsere Leidenschaft für asiatische Antiquitäten ist tief verwurzelt. Wir kaufen chinesische Vasen, Porzellan, Malereien, Skulpturen, Kleidung, Schmuck, Fotos und Briefe. Jedes Stück erzählt eine eigene Geschichte.\n\nAnkauf von Dänisches Design\n\nWollen sie ihre Dänischen Designstücke verkaufen? Durch unsere enge Verbindung zu Dänemark sind wir besonders interessiert an skandinavischem Design. Wir kaufen Schmuck über Möbel und Lampen bis zu Klassikern von Royal Copenhagen, Holmegaard, Verner Panton, Arne Jacobsen und vielen weiteren namhaften Designern.\n\nWas andere über uns sagen\n\nErfahrung sagt mehr als Worte, das berichten unsere Kunden:\n\n„Wer das Besondere sucht, ist hier genau richtig! Kompetente Beratung und ausgesprochen freundlicher Service.“\nFrau Cummerow\n„Für meine Tiny Houses bin ich stets auf der Suche nach Equipment, um diesen eine besondere Note zu verleihen. Ich habe Holzmarias und Jugendstilfenster gesucht, die sie mir zu einem fairen Preis vermittelt hat. Ich war sehr zufrieden und alles verlief reibungslos.“\nJan Wiechmann\n„Ich habe einige Dinge an den Antiquitätenladen abgegeben und bin mit der Verhandlung und der Kommunikation äußerst zufrieden. Ich kann die Zusammenarbeit uneingeschränkt weiterempfehlen.“\nSabine Tange-Schaub\nMöchten Sie Antik verkaufen oder uns in unserem Laden besuchen?\n\nWir kaufen Antiquitäten, Schmuck, Design-Stücke und Trödel in Kappeln, Schleswig-Holstein sowie Umgebung, inklusive Hamburg, Flensburg, Eckernförde und Schleswig. Vereinbaren Sie ein kostenloses und unverbindliches Gespräch. Wir beantworten Ihre Fragen und beraten Sie beim fairen Ankauf Ihrer Schätze.\n\nOder besuchen Sie uns direkt in unserem Laden in Kappeln. Stöbern Sie in unserer Auswahl und entdecken Sie vielleicht Ihren neuen Schatz!\n\nJetzt Antik verkaufen",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Home"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Über Uns"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Dienstleistungen"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Ankauf"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Laden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Kontakt"
+      },
+      {
+        "alt": "",
+        "cls": "text-lg md:text-xl text-gray-600 mb-6 leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Wir, Ines Wiechmann Saijers und Merle Saijers, sind Ihr zuverlässiger Ansprechpartner für professionellen Antik Ankauf. Wir kaufen klassische Antiquitäten, Schmuck, Design und Trödel sowohl national als auch international an. Als Experten für Antik Ankauf in Kappeln (Schleswig-Holstein). Sind wir regional verwurzelt und gleichzeitig bundesweit für Sie tätig, unter anderem in Kiel, Eckernförde, Hamburg, Flensburg, Schleswig, Husum, und vielen weiteren Städten. Unser engagiertes Team steht für ein"
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-500 text-lg leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Sie möchten Antiquitäten oder Schmuck verkaufen, wissen aber nicht, wie viel sie wert sind? Wir kommen in Kappeln und Umgebung vorbei und bieten eine unverbindliche, faire Schätzung Ihrer Objekte."
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-500 text-lg leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Wir kaufen Antiquitäten, Schmuck, Münzen, Postkarten und dänische Design-Möbel. Auch komplette Sammlungen und Nachlässe sind willkommen."
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-500 text-lg leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Neben Kappeln und Schleswig-Holstein sind wir bundesweit auf Auktionen in Deutschland, den Niederlanden und Skandinavien unterwegs."
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-500 text-lg leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Wir kaufen auch Haushaltsauflösungen und wir gehen bei Haushaltsauflösungen diskret und respektvoll vor. Ganz gleich, ob es um Umzüge, Nachlässe oder andere Gründe geht. Keine Antiquität bleibt unbeachtet."
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-500 text-lg leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Wir arbeiten transparent, offen und mit vollem Respekt. Vertrauen ist unser Fundament, wenn Sie Antik verkaufen möchten."
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-500 text-lg leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Langjährige Erfahrung im Antikhandel garantiert eine faire, transparente und professionelle Bewertung Ihrer Objekte, in Kappeln, Schleswig-Holstein und bundesweit."
+      },
+      {
+        "alt": "",
+        "cls": "text-lg text-gray-700 leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Unser Interesse an den Ankauf von Fotos ist vielfältig. Wir kaufen Fotos aus Kriegs- und Friedenszeiten, Kunstfotos, historische Bilder, Fotos aus den Kolonien und private Sammlungen. Wir schätzen die Einzigartigkeit jedes Fotos und arbeiten mit Museen, Archiven und privaten Sammlern zusammen, um diese Vielfalt zu bewahren."
+      },
+      {
+        "alt": "",
+        "cls": "text-lg text-gray-700 leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Wir kaufen hauptsächlich antiken Schmuck und Modeschmuck. Auch reparaturbedürftige Stücke kaufen wir gerne an und arbeiten mit erfahrenen Goldschmieden zusammen, um sie fachgerecht wiederherzustellen."
+      },
+      {
+        "alt": "",
+        "cls": "text-lg text-gray-700 leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Unsere Leidenschaft für asiatische Antiquitäten ist tief verwurzelt. Wir kaufen chinesische Vasen, Porzellan, Malereien, Skulpturen, Kleidung, Schmuck, Fotos und Briefe. Jedes Stück erzählt eine eigene Geschichte."
+      },
+      {
+        "alt": "",
+        "cls": "text-lg text-gray-700 leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Wollen sie ihre Dänischen Designstücke verkaufen? Durch unsere enge Verbindung zu Dänemark sind wir besonders interessiert an skandinavischem Design. Wir kaufen Schmuck über Möbel und Lampen bis zu Klassikern von Royal Copenhagen, Holmegaard, Verner Panton, Arne Jacobsen und vielen weiteren namhaften Designern."
+      },
+      {
+        "alt": "",
+        "cls": "text-lg text-orange-500 max-w-2xl mx-auto aos-init",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Erfahrung sagt mehr als Worte, das berichten unsere Kunden:"
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-700 italic leading-relaxed mb-6",
+        "href": "",
+        "src": "",
+        "tag": "blockquote",
+        "text": "„Wer das Besondere sucht, ist hier genau richtig! Kompetente Beratung und ausgesprochen freundlicher Service.“"
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-700 italic leading-relaxed mb-6",
+        "href": "",
+        "src": "",
+        "tag": "blockquote",
+        "text": "„Für meine Tiny Houses bin ich stets auf der Suche nach Equipment, um diesen eine besondere Note zu verleihen. Ich habe Holzmarias und Jugendstilfenster gesucht, die sie mir zu einem fairen Preis vermittelt hat. Ich war sehr zufrieden und alles verlief reibungslos.“"
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-700 italic leading-relaxed mb-6",
+        "href": "",
+        "src": "",
+        "tag": "blockquote",
+        "text": "„Ich habe einige Dinge an den Antiquitätenladen abgegeben und bin mit der Verhandlung und der Kommunikation äußerst zufrieden. Ich kann die Zusammenarbeit uneingeschränkt weiterempfehlen.“"
+      },
+      {
+        "alt": "",
+        "cls": "text-base md:text-lg text-gray-900 mb-6 leading-relaxed drop-shadow-md",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Wir kaufen Antiquitäten, Schmuck, Design-Stücke und Trödel in Kappeln, Schleswig-Holstein sowie Umgebung, inklusive Hamburg, Flensburg, Eckernförde und Schleswig. Vereinbaren Sie ein kostenloses und unverbindliches Gespräch. Wir beantworten Ihre Fragen und beraten Sie beim fairen Ankauf Ihrer Schätze."
+      },
+      {
+        "alt": "",
+        "cls": "text-base md:text-lg text-gray-900 mb-6 leading-relaxed drop-shadow-md",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Oder besuchen Sie uns direkt in unserem Laden in Kappeln. Stöbern Sie in unserer Auswahl und entdecken Sie vielleicht Ihren neuen Schatz!"
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-300 leading-relaxed mb-4",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Saijers Antik ist ein Familienunternehmen mit Leidenschaft für Antiquitäten, Design und Geschichte. Seit Generationen stehen wir für Qualität, Ehrlichkeit und Expertise im An- und Verkauf."
+      },
+      {
+        "alt": "",
+        "cls": "text-sm text-gray-400",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "© 2026 Saijers-Antik.de Alle Rechte vorbehalten."
+      },
+      {
+        "alt": "",
+        "cls": "text-sm leading-relaxed",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Sommer (1. Apr – 30. Okt) Do & Fr: 11:00 – 16:00 Uhr Sa: 10:00 – 15:00 Uhr"
+      },
+      {
+        "alt": "",
+        "cls": "text-sm leading-relaxed mt-3",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Winter (1. Nov – 31. Dez) Sa: 12:00 – 14:00 Uhr"
+      },
+      {
+        "alt": "",
+        "cls": "text-sm leading-relaxed mt-3",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Winterpause (1. Dez – 31. März) Geschlossen"
+      },
+      {
+        "alt": "",
+        "cls": "text-gray-400 text-xs mt-3",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "Termine und Hausbesuche nach Absprache möglich."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "FAQ"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Impressum"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Datenschutz"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "Blog"
+      }
+    ],
+    "title": "Home – Saijers Antik, Trödel & Design",
+    "url": "https://saijersantik.de/"
+  },
+  {
+    "slug": "ueber-uns",
+    "requestedUrl": "https://saijersantik.de/ueber-uns",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/ueber-uns/"
+  },
+  {
+    "slug": "dienstleistungen",
+    "requestedUrl": "https://saijersantik.de/Dienstleistungen",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/Dienstleistungen/"
+  },
+  {
+    "slug": "ankauf",
+    "requestedUrl": "https://saijersantik.de/Ankauf",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/Ankauf/"
+  },
+  {
+    "slug": "laden",
+    "requestedUrl": "https://saijersantik.de/Laden",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/Laden/"
+  },
+  {
+    "slug": "kontakt",
+    "requestedUrl": "https://saijersantik.de/Kontakt",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/Kontakt/"
+  },
+  {
+    "slug": "faq",
+    "requestedUrl": "https://saijersantik.de/FAQ",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/FAQ/"
+  },
+  {
+    "slug": "impressum",
+    "requestedUrl": "https://saijersantik.de/Impressum",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/Impressum/"
+  },
+  {
+    "slug": "datenschutz",
+    "requestedUrl": "https://saijersantik.de/Datenschutz",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/Datenschutz/"
+  },
+  {
+    "slug": "blog",
+    "requestedUrl": "https://saijersantik.de/Blog",
+    "bodyClass": "",
+    "headings": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h1",
+        "text": "403 Forbidden"
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "h3",
+        "text": "If you are the owner of the website:"
+      }
+    ],
+    "images": [],
+    "inputs": [],
+    "links": [],
+    "mainText": "403 Forbidden\n\nYou do not have permission to access this URL. Your request was blocked by the owner of the website.\n\nIf you are the owner of the website:\nThis is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins.\nThe problem could be a missing index file in this folder. File names are case-sensitive.\nThis error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources.\n\nYou can see the detailed reason for this in your webserver logs.",
+    "paragraphs": [
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You do not have permission to access this URL. Your request was blocked by the owner of the website."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This is NOT a block made by your hosting provider. Check blocks made in your .htaccess-file or by installed plugins."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "The problem could be a missing index file in this folder. File names are case-sensitive."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "li",
+        "text": "This error can occur when you are using the Simply.com-sitebuilder, but trying to access WordPress-resources."
+      },
+      {
+        "alt": "",
+        "cls": "",
+        "href": "",
+        "src": "",
+        "tag": "p",
+        "text": "You can see the detailed reason for this in your webserver logs."
+      }
+    ],
+    "title": "403 Forbidden",
+    "url": "https://saijersantik.de/Blog/"
+  }
+]

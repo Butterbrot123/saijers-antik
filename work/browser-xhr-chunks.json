@@ -1,0 +1,26 @@
+[
+  {
+    "error": "TypeError: XMLHttpRequest is not a constructor",
+    "url": "https://saijersantik.de/_next/static/chunks/806bdb8e4a6a9b95.js"
+  },
+  {
+    "error": "TypeError: XMLHttpRequest is not a constructor",
+    "url": "https://saijersantik.de/_next/static/chunks/448bf8cf2d54fb13.js"
+  },
+  {
+    "error": "TypeError: XMLHttpRequest is not a constructor",
+    "url": "https://saijersantik.de/_next/static/chunks/69be39811437728d.js"
+  },
+  {
+    "error": "TypeError: XMLHttpRequest is not a constructor",
+    "url": "https://saijersantik.de/_next/static/chunks/turbopack-2655f0448808f269.js"
+  },
+  {
+    "error": "TypeError: XMLHttpRequest is not a constructor",
+    "url": "https://saijersantik.de/_next/static/chunks/c5cfac5cd01a9e96.js"
+  },
+  {
+    "error": "TypeError: XMLHttpRequest is not a constructor",
+    "url": "/__next._index.txt?_rsc=nn07o"
+  }
+]

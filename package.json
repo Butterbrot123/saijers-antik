@@ -1,0 +1,23 @@
+{
+  "name": "saijers-antik-next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:server": "NEXT_OUTPUT=standalone next build && cp -R public .next/standalone/public && mkdir -p .next/standalone/.next && cp -R .next/static .next/standalone/.next/static",
+    "start": "next start",
+    "start:standalone": "node .next/standalone/server.js",
+    "server": "HOSTNAME=0.0.0.0 PORT=3000 node .next/standalone/server.js"
+  },
+  "dependencies": {
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  },
+  "devDependencies": {}
+}

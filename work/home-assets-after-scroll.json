@@ -1,0 +1,603 @@
+{
+  "assets": [
+    {
+      "id": "38d1446f8b1f0293",
+      "kind": "font",
+      "name": "1b99372b3eaef0c8-s.p.758e15a8.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 17,
+          "property": "href"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2"
+    },
+    {
+      "id": "408e2597db9561b4",
+      "kind": "font",
+      "name": "308823598d090913-s.p.df80a9b2.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 18,
+          "property": "href"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/media/308823598d090913-s.p.df80a9b2.woff2"
+    },
+    {
+      "id": "05c6ec8a71a14058",
+      "kind": "font",
+      "name": "83afe278b6a6bb3c-s.p.3a6ba036.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 19,
+          "property": "href"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    },
+    {
+      "id": "825b0220e36bec5a",
+      "kind": "stylesheet",
+      "name": "44943553b8cf91b7.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 23,
+          "property": "href"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/44943553b8cf91b7.css"
+    },
+    {
+      "id": "5535defe7ece4fbc",
+      "kind": "image",
+      "name": "wir.8f18abd9.png",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 22,
+          "property": "href"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 5,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/media/wir.8f18abd9.png"
+    },
+    {
+      "id": "b1f97da3cbe711c8",
+      "kind": "image",
+      "name": "starthintergrund.b2e9d660.jpg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 21,
+          "property": "href"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 3,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/media/starthintergrund.b2e9d660.jpg"
+    },
+    {
+      "id": "fd9ac5d0a0a29d2d",
+      "kind": "font",
+      "name": "95accdfe7438af8b-s.p.8ebe058a.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 20,
+          "property": "href"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/media/95accdfe7438af8b-s.p.8ebe058a.woff2"
+    },
+    {
+      "id": "488bc62d473ed990",
+      "kind": "script",
+      "name": "e1d35e9c338bae1a.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 24,
+          "property": "href"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 443,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/e1d35e9c338bae1a.js"
+    },
+    {
+      "id": "57c48f4a0a8e105b",
+      "kind": "script",
+      "name": "turbopack-2655f0448808f269.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 28,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/turbopack-2655f0448808f269.js"
+    },
+    {
+      "id": "c54de7a220b44184",
+      "kind": "script",
+      "name": "806bdb8e4a6a9b95.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 25,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/806bdb8e4a6a9b95.js"
+    },
+    {
+      "id": "69c08195f1f3056a",
+      "kind": "script",
+      "name": "ff1a16fafef87110.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 30,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/ff1a16fafef87110.js"
+    },
+    {
+      "id": "efb51d5ebab7acbe",
+      "kind": "script",
+      "name": "d2be314c3ece3fbe.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 31,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/d2be314c3ece3fbe.js"
+    },
+    {
+      "id": "b041c897df8d4432",
+      "kind": "script",
+      "name": "c5cfac5cd01a9e96.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 29,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/c5cfac5cd01a9e96.js"
+    },
+    {
+      "id": "d11ced0813c1e925",
+      "kind": "script",
+      "name": "448bf8cf2d54fb13.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 26,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/448bf8cf2d54fb13.js"
+    },
+    {
+      "id": "dffe52eba4c34cac",
+      "kind": "script",
+      "name": "69be39811437728d.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 27,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/69be39811437728d.js"
+    },
+    {
+      "id": "b816e5be893ed193",
+      "kind": "script",
+      "name": "gtm.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 33,
+          "property": "href"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 490,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PFFG334R"
+    },
+    {
+      "id": "2d790361eb0bd62d",
+      "kind": "script",
+      "name": "js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "link"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 34,
+          "property": "href"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 493,
+          "property": "src"
+        }
+      ],
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-Q1163LEWGT"
+    },
+    {
+      "id": "14390d21b83bb0d4",
+      "kind": "script",
+      "name": "04d16a7429d452ef.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 32,
+          "property": "src"
+        }
+      ],
+      "url": "https://saijersantik.de/_next/static/chunks/04d16a7429d452ef.js"
+    },
+    {
+      "id": "0549fd2f9c63ecc1",
+      "kind": "other",
+      "name": "Kontakt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/Kontakt"
+    },
+    {
+      "id": "64439b0c5731c3ae",
+      "kind": "other",
+      "name": "Ankauf",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/Ankauf"
+    },
+    {
+      "id": "e549ad1e63e1d78d",
+      "kind": "other",
+      "name": "Laden",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/Laden"
+    },
+    {
+      "id": "4f777dd1274cd4f4",
+      "kind": "other",
+      "name": "Dienstleistungen",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/Dienstleistungen"
+    },
+    {
+      "id": "a5f74f3ec27a5b78",
+      "kind": "other",
+      "name": "collect",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-Q1163LEWGT&gtm=45je6641v9242917319za200zd9242917319&_p=1781083631088&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAAAQ&are=1&cid=1290492993.1781077484&frm=0&pscdl=noapi&rcb=15&sr=1470x956&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B149.0.7827.54%7CChromium%3B149.0.7827.54%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.5.1&uaw=0&ul=da&_s=1&tag_exp=0~115616986~115938466~115938469&sid=1781079970&sct=2&seg=1&dl=https%3A%2F%2Fsaijersantik.de%2F&dt=Home%20%E2%80%93%20Saijers%20Antik%2C%20Tr%C3%B6del%20%26%20Design&en=page_view&_ee=1&tfd=74"
+    },
+    {
+      "id": "6794eff33e84d16f",
+      "kind": "other",
+      "name": "https://saijersantik.de/",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/"
+    },
+    {
+      "id": "e5096ba65360306c",
+      "kind": "other",
+      "name": "__next._tree.txt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/__next._tree.txt?_rsc=1r34m"
+    },
+    {
+      "id": "af49955ee1cb92f1",
+      "kind": "other",
+      "name": "Blog",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/Blog"
+    },
+    {
+      "id": "503af41068d2ec40",
+      "kind": "other",
+      "name": "Impressum",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/Impressum"
+    },
+    {
+      "id": "13b1d2d68029bfc5",
+      "kind": "other",
+      "name": "Datenschutz",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/Datenschutz"
+    },
+    {
+      "id": "b0dd7f41c22d5d47",
+      "kind": "other",
+      "name": "FAQ",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/FAQ"
+    },
+    {
+      "id": "347c91ba8629a048",
+      "kind": "other",
+      "name": "ueber-uns",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/ueber-uns"
+    },
+    {
+      "id": "3ff23cd84faf136f",
+      "kind": "other",
+      "name": "__next._head.txt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/__next._head.txt?_rsc=1pn8p"
+    },
+    {
+      "id": "1b9ac5aa01319781",
+      "kind": "other",
+      "name": "__next._index.txt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/__next._index.txt?_rsc=nn07o"
+    },
+    {
+      "id": "cd8290ab89a3a892",
+      "kind": "other",
+      "name": "__next.!KGRlZmF1bHQp.txt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/__next.!KGRlZmF1bHQp.txt?_rsc=o863q"
+    },
+    {
+      "id": "63d488cfda8687d8",
+      "kind": "other",
+      "name": "__next.!KGRlZmF1bHQp.__PAGE__.txt",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "https://saijersantik.de/__next.!KGRlZmF1bHQp.__PAGE__.txt?_rsc=1jx6h"
+    }
+  ],
+  "id": "3b614620-379c-4eb8-b2bc-b44f74015247",
+  "inlineSvgs": [
+    {
+      "id": "71268b3181911ae3",
+      "markup": "<svg class=\"w-7 h-7 transition-all duration-300 text-white\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><rect y=\"4\" width=\"24\" height=\"2\" rx=\"1\"></rect><rect y=\"11\" width=\"24\" height=\"2\" rx=\"1\"></rect><rect y=\"18\" width=\"24\" height=\"2\" rx=\"1\"></rect></svg>",
+      "name": "svg-1"
+    },
+    {
+      "id": "b36567db1bd15a2d",
+      "markup": "<svg class=\"w-16 h-16 mb-4\" viewBox=\"0 0 64 64\"><rect class=\"fill-current text-[#002353]\" width=\"64\" height=\"64\" rx=\"32\"></rect><path class=\"stroke-current text-orange-500\" d=\"M30 39.3l-4.18 2.2L27 34.6l-5-4.9 6.91-1 3.09-6.2 3.09 6.2L42 29.8l-3 2.9\" stroke-linecap=\"square\" stroke-width=\"2\" fill=\"none\"></path><path class=\"stroke-current text-coral-red\" d=\"M43 42h-9M43 37h-9\" stroke-linecap=\"square\" stroke-width=\"2\"></path></svg>",
+      "name": "svg-2"
+    },
+    {
+      "id": "cc3adeeb47a4f21d",
+      "markup": "<svg class=\"w-16 h-16 mb-4\" viewBox=\"0 0 64 64\"><circle class=\"fill-current text-[#002353]\" cx=\"32\" cy=\"32\" r=\"32\"></circle><path class=\"stroke-current text-orange-500\" stroke-width=\"2\" stroke-linecap=\"square\" d=\"M21 23h22v18H21z\" fill=\"none\"></path><path class=\"stroke-current text-coral-red\" d=\"M26 28h12M26 32h12M26 36h5\" stroke-width=\"2\" stroke-linecap=\"square\"></path></svg>",
+      "name": "svg-3"
+    },
+    {
+      "id": "743a64e6129779f1",
+      "markup": "<svg class=\"w-16 h-16 mb-4\" viewBox=\"0 0 64 64\"><rect class=\"fill-current text-[#002353]\" width=\"64\" height=\"64\" rx=\"32\"></rect><g transform=\"translate(21 21)\" stroke-linecap=\"square\" stroke-width=\"2\" fill=\"none\"><ellipse class=\"stroke-current text-orange-500\" cx=\"11\" cy=\"11\" rx=\"5.5\" ry=\"11\"></ellipse><path class=\"stroke-current text-orange-400\" d=\"M11 0v22M0 11h22\"></path><circle class=\"stroke-current text-coral-red\" cx=\"11\" cy=\"11\" r=\"11\"></circle></g></svg>",
+      "name": "svg-4"
+    },
+    {
+      "id": "7f566ce8eca52281",
+      "markup": "<svg class=\"w-16 h-16 mb-4\" viewBox=\"0 0 64 64\"><rect class=\"fill-current text-[#002353]\" width=\"64\" height=\"64\" rx=\"32\"></rect><g transform=\"translate(22 21)\" stroke-linecap=\"square\" stroke-width=\"2\" fill=\"none\"><path class=\"stroke-current text-orange-500\" d=\"M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5\"></path><circle class=\"stroke-current text-coral-red\" cx=\"13\" cy=\"9\" r=\"3\"></circle></g></svg>",
+      "name": "svg-5"
+    },
+    {
+      "id": "b09ce701ddf1b949",
+      "markup": "<svg class=\"w-16 h-16 mb-4\" viewBox=\"0 0 64 64\"><rect class=\"fill-current text-[#002353]\" width=\"64\" height=\"64\" rx=\"32\"></rect><g stroke-linecap=\"square\" stroke-width=\"2\" fill=\"none\"><path class=\"stroke-current text-orange-500\" d=\"M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6\"></path><path class=\"stroke-current text-coral-red\" d=\"M22 30h4v12h-4z\"></path></g></svg>",
+      "name": "svg-6"
+    },
+    {
+      "id": "f569cac5cac878b1",
+      "markup": "<svg class=\"w-16 h-16 mb-4\" viewBox=\"0 0 64 64\"><rect class=\"fill-current text-[#002353]\" width=\"64\" height=\"64\" rx=\"32\"></rect><g transform=\"translate(21 22)\" stroke-linecap=\"square\" stroke-width=\"2\" fill=\"none\"><path class=\"stroke-current text-orange-500\" d=\"M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415\"></path><circle class=\"stroke-current text-coral-red\" cx=\"17\" cy=\"5\" r=\"3\"></circle><path class=\"stroke-current text-coral-red\" d=\"M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948\"></path></g></svg>",
+      "name": "svg-7"
+    },
+    {
+      "id": "d0a86922714e5a6c",
+      "markup": "<svg class=\"absolute -top-4 right-0 w-8 h-6 fill-current text-[#0044cc]/60\" viewBox=\"0 0 24 20\"><path d=\"M0 13.517c0-2.346.611-4.774 1.833-7.283C3.056 3.726 4.733 1.648 6.865 0L11 2.696C9.726 4.393 8.777 6.109 8.152 7.844c-.624 1.735-.936 3.589-.936 5.56v4.644H0v-4.531zm13 0c0-2.346.611-4.774 1.833-7.283 1.223-2.508 2.9-4.586 5.032-6.234L24 2.696c-1.274 1.697-2.223 3.413-2.848 5.148-.624 1.735-.936 3.589-.936 5.56v4.644H13v-4.531z\"></path></svg>",
+      "name": "svg-8"
+    },
+    {
+      "id": "446d14a6b3ee6bb2",
+      "markup": "<svg class=\"absolute -top-4 right-0 w-8 h-6 fill-current text-[#0044cc]/60\" viewBox=\"0 0 24 20\"><path d=\"M0 13.517c0-2.346.611-4.774 1.833-7.283C3.056 3.726 4.733 1.648 6.865 0L11 2.696C9.726 4.393 8.777 6.109 8.152 7.844c-.624 1.735-.936 3.589-.936 5.56v4.644H0v-4.531zm13 0c0-2.346.611-4.774 1.833-7.283 1.223-2.508 2.9-4.586 5.032-6.234L24 2.696c-1.274 1.697-2.223 3.413-2.848 5.148-.624 1.735-.936 3.589-.936 5.56v4.644H13v-4.531z\"></path></svg>",
+      "name": "svg-9"
+    },
+    {
+      "id": "d651ae4d7936524e",
+      "markup": "<svg class=\"absolute -top-4 right-0 w-8 h-6 fill-current text-[#0044cc]/60\" viewBox=\"0 0 24 20\"><path d=\"M0 13.517c0-2.346.611-4.774 1.833-7.283C3.056 3.726 4.733 1.648 6.865 0L11 2.696C9.726 4.393 8.777 6.109 8.152 7.844c-.624 1.735-.936 3.589-.936 5.56v4.644H0v-4.531zm13 0c0-2.346.611-4.774 1.833-7.283 1.223-2.508 2.9-4.586 5.032-6.234L24 2.696c-1.274 1.697-2.223 3.413-2.848 5.148-.624 1.735-.936 3.589-.936 5.56v4.644H13v-4.531z\"></path></svg>",
+      "name": "svg-10"
+    },
+    {
+      "id": "49efdc88d6cf3938",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-facebook w-5 h-5\" aria-hidden=\"true\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"></path></svg>",
+      "name": "svg-11"
+    },
+    {
+      "id": "2f9746dd20922996",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-instagram w-5 h-5\" aria-hidden=\"true\"><rect width=\"20\" height=\"20\" x=\"2\" y=\"2\" rx=\"5\" ry=\"5\"></rect><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path><line x1=\"17.5\" x2=\"17.51\" y1=\"6.5\" y2=\"6.5\"></line></svg>",
+      "name": "svg-12"
+    }
+  ],
+  "pageUrl": "https://saijersantik.de/",
+  "summary": {
+    "byKind": {
+      "font": 4,
+      "image": 2,
+      "other": 16,
+      "script": 11,
+      "stylesheet": 1,
+      "video": 0
+    },
+    "inlineSvgCount": 12,
+    "totalCount": 34
+  }
+}
