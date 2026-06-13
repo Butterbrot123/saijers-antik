@@ -57,6 +57,50 @@ Wenn die Vercel-Vorschau funktioniert:
 
 Bitte die DNS-Werte nicht raten, sondern genau die Werte aus Vercel kopieren.
 
+### Simply-Domain auf Vercel zeigen lassen
+
+Die Domain muss nicht unbedingt zu Vercel transferiert werden. Am sichersten ist:
+Domain bei Simply lassen und nur die DNS-Eintraege fuer die Website aendern.
+
+In Simply im DNS-Bereich:
+
+1. Den bestehenden Website-Record fuer `saijersantik.de` suchen.
+2. Den Apex-Record, also `@` oder leeres Feld, als `A`-Record auf den Wert setzen,
+   den Vercel im Domain-Bereich anzeigt.
+3. Den `www`-Record als `CNAME` auf den Wert setzen, den Vercel im Domain-Bereich
+   anzeigt.
+4. Alte `A`-, `AAAA`- oder `CNAME`-Records fuer `@` und `www` entfernen, wenn sie
+   noch auf den Simply-Webspace zeigen.
+5. Mail-Records wie `MX`, `SPF`, `DKIM`, `DMARC` und andere TXT-Records nicht
+   loeschen, damit E-Mail bei Simply weiter funktioniert.
+
+Vercel zeigt im Projekt unter **Settings > Domains** genau an, welche Records
+fehlen oder falsch gesetzt sind. Nach der Aenderung kann es einige Minuten bis
+24 Stunden dauern, bis alles ueberall aktualisiert ist.
+
+### Aktuelle DNS-Werte fuer saijersantik.de
+
+Diese Werte wurden von Vercel fuer dieses Projekt angezeigt:
+
+```txt
+Type:  A
+Name:  @
+Value: 216.198.79.1
+```
+
+```txt
+Type:  CNAME
+Name:  www
+Value: db687286b7479389.vercel-dns-017.com.
+```
+
+Wenn Simply den Punkt am Ende beim CNAME nicht akzeptiert, diesen Punkt
+weglassen:
+
+```txt
+db687286b7479389.vercel-dns-017.com
+```
+
 ## Test nach dem Deploy
 
 Nach dem Deployment bitte prüfen:

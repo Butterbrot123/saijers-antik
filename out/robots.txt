@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-
-Host: https://saijersantik.de/
-Sitemap: https://saijersantik.de/sitemap.xml

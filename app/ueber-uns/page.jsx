@@ -1,83 +1,133 @@
 import Image from "next/image";
+import Link from "next/link";
+import {
+  BadgeCheck,
+  HeartHandshake,
+  History,
+  MapPin,
+  Search,
+  ShieldCheck,
+  Sparkles
+} from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Über Saijers Antik – Antik Ankauf mit Erfahrung",
+  title: "Über Saijers Antik – Antik Ankauf in Kappeln mit Erfahrung",
   description:
-    "Lernen Sie Saijers Antik kennen: Familienunternehmen für Antik Ankauf, Antiquitäten, Schmuck, Design, Trödel und Nachlässe in Kappeln und Schleswig-Holstein.",
+    "Lernen Sie Saijers Antik kennen: Familienunternehmen für Antik Ankauf, Antiquitäten, Schmuck, Design, Trödel, Postkarten, Dokumente und Nachlässe in Kappeln.",
   path: "/ueber-uns",
   image: "/images/wir.png",
   keywords: [
     "Saijers Antik",
     "Antik Ankauf Kappeln",
     "Antiquitäten Händler Schleswig-Holstein",
+    "Antikladen Kappeln",
+    "Nachlass Ankauf Kappeln"
   ],
 });
 
-const sections = [
+const valueCards = [
   {
-    title: "Zwei",
-    accent: "Generationen",
-    suffix: "mit Leidenschaft für Design und Antik",
-    text: `Das Unternehmen wird bis heute von den Werten und der Leidenschaft der Familie für Antiquitäten, Kunst, Design und Handel geleitet. 
-Diese Werte sind tief in unserer Arbeitsweise verwurzelt und werden von Generation zu Generation weitergegeben. 
-In enger Zusammenarbeit mit der vorherigen Generation und unter der liebevollen Anleitung meiner Mutter, Ines Saijers, setzen wir diese Tradition fort.`,
+    title: "Fair einschätzen",
+    text: "Wir erklären nachvollziehbar, welche Merkmale den Wert eines Stücks beeinflussen.",
+    icon: BadgeCheck
   },
   {
-    title: "Unsere",
-    accent: "Vision",
-    suffix: "für die Zukunft",
-    text: `Unsere Unternehmensvision ruht auf den Fundamenten von Tradition, Wertschätzung, Glaubwürdigkeit, Kompetenz und langjähriger Erfahrung. 
-Zugleich glauben wir fest daran, dass die Zukunft formbar ist und wir sie durch unsere Visionen aktiv mitgestalten können. 
-Unser Ziel ist es, Tradition und Kultur zu bewahren und dabei den Respekt für das Kunsthandwerk unserer Vergangenheit zu zeigen.`,
+    title: "Diskret beraten",
+    text: "Nachlässe, Sammlungen und persönliche Erinnerungsstücke behandeln wir vertraulich.",
+    icon: ShieldCheck
   },
   {
-    title: "Unsere Werte:",
-    accent: "Tradition und Vertrauen im Handel",
-    suffix: "",
-    text: `Die Grundpfeiler unseres Unternehmens waren schon immer Professionalität, Ehrlichkeit und Arbeitsdisziplin, verbunden mit einer tiefen Leidenschaft für Antiquitäten und den Handel. 
-Die Familiengeschichte der Saijers reicht bis ins 17. Jahrhundert zurück, als Händler in Amsterdam. 
-Über Generationen hinweg haben wir uns dem Handel mit Kolonialwaren gewidmet. 
-Diese lange Tradition prägt unseren heutigen Umgang mit Antiquitäten und unterstreicht die Bedeutung eines fairen und respektvollen Handels.`,
+    title: "Geschichte bewahren",
+    text: "Uns interessiert nicht nur der Preis, sondern auch Herkunft, Handwerk und Zeitgeschichte.",
+    icon: History
+  },
+  {
+    title: "Persönlich erreichbar",
+    text: "Im Laden in Kappeln, per E-Mail oder nach Absprache auch bei Ihnen vor Ort.",
+    icon: MapPin
+  }
+];
+
+const processItems = [
+  {
+    title: "Stücke zeigen",
+    text: "Sie senden Fotos, bringen Objekte vorbei oder vereinbaren einen Termin.",
+    icon: Search
+  },
+  {
+    title: "Ruhig prüfen",
+    text: "Wir betrachten Zustand, Alter, Material, Herkunft, Seltenheit und Nachfrage.",
+    icon: Sparkles
+  },
+  {
+    title: "Fair entscheiden",
+    text: "Sie erhalten eine ehrliche Einschätzung und bei Interesse ein klares Angebot.",
+    icon: HeartHandshake
   },
 ];
 
 export default function AboutPage() {
   return (
     <>
-      <PageHero title="Über Uns" accent="Über" backgroundImage="/images/hunde-hintergrund.jpg">
-        Ines Wiechmann Saijers und Merle Saijers verbinden Erfahrung,
-        Familiengeschichte und ein gutes Auge für besondere Stücke.
+      <PageHero
+        className="page-hero-compact about-hero"
+        title="Über Saijers Antik"
+        accent="Saijers Antik"
+        backgroundImage="/images/hunde-hintergrund.jpg"
+      >
+        Ines Wiechmann Saijers und Merle Saijers verbinden Familiengeschichte,
+        Erfahrung und ein gutes Auge für Antiquitäten, Design und besondere
+        Erinnerungsstücke.
       </PageHero>
 
-      <section className="section">
-        <div className="container about-grid">
-          <div className="about-image">
+      <section className="section about-story-section">
+        <div className="container about-story-grid">
+          <div className="about-story-image">
             <Image
               src="/images/wir.png"
               alt="Ines Wiechmann Saijers und Merle Saijers"
               width={609}
               height={887}
+              sizes="(max-width: 980px) 100vw, 44vw"
               priority
             />
           </div>
 
-          <div className="rich-text">
-            {sections.map((section) => (
-              <article key={section.accent} className="about-section">
-                <h2 className="eyebrow-heading">
-                  {section.title}{" "}
-                  <span className="accent">{section.accent}</span>{" "}
-                  {section.suffix}
-                </h2>
+          <div className="about-story-copy">
+            <span className="eyebrow">Familienunternehmen in Kappeln</span>
+            <h2>Antikhandel mit Erfahrung, Ruhe und Freude an echten Stücken</h2>
+            <p>
+              Saijers Antik steht für persönlichen Antik Ankauf in Kappeln und
+              Schleswig-Holstein. Wir kaufen und bewerten Antiquitäten, Schmuck,
+              Uhren, Postkarten, historische Dokumente, Fotos, Designobjekte,
+              Trödel, Sammlungen und Nachlässe.
+            </p>
+            <p>
+              Viele Stücke erzählen mehr als man auf den ersten Blick sieht.
+              Deshalb nehmen wir uns Zeit: für Material, Zustand, Herkunft,
+              Geschichte und die Frage, was heute für Sammlerinnen und Sammler
+              interessant ist.
+            </p>
+            <p>
+              Unsere Arbeit ist geprägt von Familientradition, ehrlichem Handel
+              und Respekt vor den Menschen, die uns ihre Stücke anvertrauen.
+            </p>
 
-                <p>{section.text}</p>
-              </article>
-            ))}
+            <div className="about-fact-row" aria-label="Saijers Antik Schwerpunkte">
+              <span>Antik Ankauf</span>
+              <span>Nachlässe</span>
+              <span>Design & Schmuck</span>
+            </div>
           </div>
         </div>
       </section>
+
+
+    
+
+      
     </>
   );
 }
