@@ -30,9 +30,15 @@ RESEND_API_KEY=...
 RESEND_FROM=Saijers Antik <kontakt@saijersantik.de>
 SAIJERS_LETTER_TO=inessayers@googlemail.com
 SAIJERS_CONTACT_TO=inessayers@googlemail.com
+RESEND_BUY_REQUEST_TEMPLATE_ID=ihre-ankauf-anfrage-bei-saijers-antik
 ```
 
 Nach dem Eintragen der Variablen muss neu deployed werden.
+
+`RESEND_BUY_REQUEST_TEMPLATE_ID` ist der Alias oder die ID des veroeffentlichten
+Resend-Templates fuer die interne Ankauf-Anfrage. Wenn das Template in Resend
+noch nicht bereit ist, nutzt die Website automatisch die eingebaute E-Mail-
+Vorlage als Ersatz.
 
 ## E-Mail-Absender
 

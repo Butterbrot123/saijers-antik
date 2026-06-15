@@ -3,6 +3,10 @@ import { siteConfig } from "@/lib/seo";
 
 const MAX_ITEMS = 12;
 const RESEND_ENDPOINT = "https://api.resend.com/emails";
+const BUY_REQUEST_EMAIL_TITLE = "Ihre Ankauf-Anfrage bei Saijers Antik";
+const BUY_REQUEST_TEMPLATE_ID =
+  process.env.RESEND_BUY_REQUEST_TEMPLATE_ID?.trim() ||
+  "ihre-ankauf-anfrage-bei-saijers-antik";
 
 function cleanString(value, maxLength = 700) {
   if (typeof value !== "string") return "";
@@ -229,7 +233,7 @@ function emailLayout(title, content) {
 
 function buildCustomerEmail({ form, items, caseNumber }) {
   const text = [
-    `Vielen Dank für Ihr Begleitschreiben an Saijers Antik.`,
+    "Vielen Dank für Ihre Ankauf-Anfrage bei Saijers Antik.",
     `Ihre Vorgangsnummer lautet: ${caseNumber}`,
     "",
     "Bitte drucken Sie das Begleitschreiben zusätzlich aus, unterschreiben Sie es und legen Sie es in die Sendung.",
@@ -257,9 +261,9 @@ function buildCustomerEmail({ form, items, caseNumber }) {
     .join("\n");
 
   const html = emailLayout(
-    `Begleitschreiben ${caseNumber}`,
+    BUY_REQUEST_EMAIL_TITLE,
     `
-      <p>Vielen Dank für Ihr Begleitschreiben an Saijers Antik.</p>
+      <p>Vielen Dank für Ihre Ankauf-Anfrage bei Saijers Antik.</p>
       <p style="padding:14px 16px;background:#fff7ed;border-left:4px solid #f49004;border-radius:10px;">
         Ihre Vorgangsnummer lautet: <strong>${escapeHtml(caseNumber)}</strong>
       </p>
@@ -287,7 +291,7 @@ function buildCustomerEmail({ form, items, caseNumber }) {
 
 function buildInternalEmail({ form, items, caseNumber }) {
   const text = [
-    `Neue Begleitschreiben-Anfrage: ${caseNumber}`,
+    `${BUY_REQUEST_EMAIL_TITLE}: ${caseNumber}`,
     "",
     "Absender:",
     `Firma: ${form.company || "-"}`,
@@ -311,11 +315,12 @@ function buildInternalEmail({ form, items, caseNumber }) {
     .join("\n");
 
   const html = emailLayout(
-    `Neue Sendung ${caseNumber}`,
+    BUY_REQUEST_EMAIL_TITLE,
     `
       <p style="padding:14px 16px;background:#fff7ed;border-left:4px solid #f49004;border-radius:10px;">
         Vorgangsnummer: <strong>${escapeHtml(caseNumber)}</strong>
       </p>
+      <p>Eine neue Ankauf-Anfrage wurde über das Begleitschreiben abgesendet.</p>
       <h2 style="margin:26px 0 8px;color:#002353;font-size:20px;">Absender</h2>
       <p style="margin:0 0 4px;">Firma: <strong>${escapeHtml(form.company || "-")}</strong></p>
       <p style="margin:0 0 4px;">Name: <strong>${escapeHtml(form.name)}</strong></p>
@@ -344,6 +349,32 @@ function buildInternalEmail({ form, items, caseNumber }) {
   return { text, html };
 }
 
+function buildBuyRequestTemplateVariables({ form, items, caseNumber }) {
+  const address = `${form.street}, ${form.postalCode} ${form.city}`;
+
+  return {
+    CASE_NUMBER: caseNumber,
+    CUSTOMER_NAME: form.name,
+    CUSTOMER_COMPANY: form.company || "-",
+    CUSTOMER_EMAIL: form.email,
+    CUSTOMER_PHONE: form.phone || "-",
+    CUSTOMER_ADDRESS: address,
+    CUSTOMER_STREET: form.street,
+    CUSTOMER_POSTAL_CODE: form.postalCode,
+    CUSTOMER_CITY: form.city,
+    TAX_MODE: form.taxMode === "privat" ? "Privat" : "Gewerblich",
+    TAX_NUMBER: form.taxNumber || "-",
+    ITEMS_TEXT: formatItemsText(items).slice(0, 2000),
+    COMMENT: form.comment || "-",
+    BANK_NAME: form.bank || "-",
+    ACCOUNT_HOLDER: form.accountHolder || "-",
+    IBAN: form.iban || "-",
+    BIC: form.bic || "-",
+    FORM_DATE: form.date,
+    FORM_PLACE: form.place
+  };
+}
+
 function getEmailConfig() {
   const apiKey = process.env.RESEND_API_KEY?.trim();
   const from = process.env.RESEND_FROM?.trim();
@@ -355,7 +386,15 @@ function getEmailConfig() {
   return { apiKey, from, missing };
 }
 
-async function sendEmail({ to, subject, html, text, replyTo, idempotencyKey }) {
+async function sendEmail({
+  to,
+  subject,
+  html,
+  text,
+  template,
+  replyTo,
+  idempotencyKey
+}) {
   const { apiKey, from, missing } = getEmailConfig();
 
   if (missing.length > 0) {
@@ -373,10 +412,15 @@ async function sendEmail({ to, subject, html, text, replyTo, idempotencyKey }) {
   const body = {
     from,
     to: Array.isArray(to) ? to : [to],
-    subject,
-    html,
-    text
+    subject
   };
+
+  if (template) {
+    body.template = template;
+  } else {
+    body.html = html;
+    body.text = text;
+  }
 
   if (replyTo) {
     body.reply_to = replyTo;
@@ -398,6 +442,7 @@ async function sendEmail({ to, subject, html, text, replyTo, idempotencyKey }) {
   if (!response.ok) {
     return {
       ok: false,
+      templateError: Boolean(template),
       message:
         result?.message ||
         "Der E-Mail-Dienst konnte die Nachricht nicht verschicken."
@@ -437,13 +482,31 @@ export async function POST(request) {
   const customerEmail = buildCustomerEmail({ form, items: sendItems, caseNumber });
   const internalEmail = buildInternalEmail({ form, items: sendItems, caseNumber });
 
-  const internalResult = await sendEmail({
+  const templateResult = await sendEmail({
     to: recipient,
     replyTo: form.email,
-    subject: `Neue Sendung ${caseNumber} - ${form.name}`,
-    ...internalEmail,
-    idempotencyKey: `${caseNumber}-internal`
+    subject: `${BUY_REQUEST_EMAIL_TITLE} - ${caseNumber}`,
+    template: {
+      id: BUY_REQUEST_TEMPLATE_ID,
+      variables: buildBuyRequestTemplateVariables({
+        form,
+        items: sendItems,
+        caseNumber
+      })
+    },
+    idempotencyKey: `${caseNumber}-internal-template`
   });
+  const internalResult = templateResult.ok
+    ? templateResult
+    : templateResult.configError
+      ? templateResult
+      : await sendEmail({
+          to: recipient,
+          replyTo: form.email,
+          subject: `${BUY_REQUEST_EMAIL_TITLE} - ${caseNumber}`,
+          ...internalEmail,
+          idempotencyKey: `${caseNumber}-internal-fallback`
+        });
 
   if (!internalResult.ok) {
     return NextResponse.json(
@@ -459,7 +522,7 @@ export async function POST(request) {
   const customerResult = await sendEmail({
     to: form.email,
     replyTo: recipient,
-    subject: `Begleitschreiben ${caseNumber} - Saijers Antik`,
+    subject: `${BUY_REQUEST_EMAIL_TITLE} - ${caseNumber}`,
     ...customerEmail,
     idempotencyKey: `${caseNumber}-customer`
   });
