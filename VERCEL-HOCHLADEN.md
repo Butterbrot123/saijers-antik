@@ -111,3 +111,37 @@ Nach dem Deployment bitte prüfen:
 - `/begleitschreiben` lädt
 - Begleitschreiben erzeugt eine Vorgangsnummer
 - Bestätigungsmail kommt beim Kunden an
+
+## Fehler: Automatischer E-Mail-Versand nicht eingerichtet
+
+Wenn im Formular diese Meldung erscheint:
+
+```txt
+Der automatische E-Mail-Versand ist noch nicht vollständig eingerichtet.
+```
+
+dann fehlen bei Vercel diese Environment Variables oder sie wurden nach dem
+Eintragen noch nicht neu deployed:
+
+```txt
+RESEND_API_KEY
+RESEND_FROM
+```
+
+In Vercel:
+
+1. Projekt öffnen.
+2. **Settings > Environment Variables** öffnen.
+3. `RESEND_API_KEY` mit dem API-Key aus Resend eintragen.
+4. `RESEND_FROM` eintragen, zum Beispiel:
+
+```txt
+Saijers Antik <kontakt@saijersantik.de>
+```
+
+5. Danach unter **Deployments** das letzte Deployment neu ausrollen:
+   **Redeploy**.
+
+Wenn `kontakt@saijersantik.de` als Absender genutzt wird, muss die Domain
+`saijersantik.de` in Resend verifiziert sein. Dafuer zeigt Resend eigene DNS-
+Eintraege an, die bei Simply gesetzt werden muessen.

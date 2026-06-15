@@ -246,15 +246,28 @@ function buildCustomerEmail({ form, files, caseNumber }) {
   return { text, html };
 }
 
-async function sendEmail({ to, subject, html, text, replyTo, attachments, idempotencyKey }) {
-  const apiKey = process.env.RESEND_API_KEY;
-  const from = process.env.RESEND_FROM;
+function getEmailConfig() {
+  const apiKey = process.env.RESEND_API_KEY?.trim();
+  const from = process.env.RESEND_FROM?.trim();
+  const missing = [];
 
-  if (!apiKey || !from) {
+  if (!apiKey) missing.push("RESEND_API_KEY");
+  if (!from) missing.push("RESEND_FROM");
+
+  return { apiKey, from, missing };
+}
+
+async function sendEmail({ to, subject, html, text, replyTo, attachments, idempotencyKey }) {
+  const { apiKey, from, missing } = getEmailConfig();
+
+  if (missing.length > 0) {
     return {
       ok: false,
       configError: true,
-      message: "Der automatische E-Mail-Versand ist noch nicht vollständig eingerichtet."
+      missingConfig: missing,
+      message: `Der automatische E-Mail-Versand ist noch nicht vollständig eingerichtet. Es fehlt in Vercel: ${missing.join(
+        ", "
+      )}.`
     };
   }
 
@@ -343,7 +356,8 @@ export async function POST(request) {
     return NextResponse.json(
       {
         message: internalResult.message,
-        configError: Boolean(internalResult.configError)
+        configError: Boolean(internalResult.configError),
+        missingConfig: internalResult.missingConfig || []
       },
       { status: internalResult.configError ? 503 : 502 }
     );

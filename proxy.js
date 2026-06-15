@@ -13,6 +13,12 @@ const legacyPathSegments = new Map([
 
 export function proxy(request) {
   const url = request.nextUrl.clone();
+
+  if (url.hostname === "saijersantik.de") {
+    url.hostname = "www.saijersantik.de";
+    return NextResponse.redirect(url, 308);
+  }
+
   const segments = url.pathname.split("/");
   const legacySegment = segments[1];
   const replacement = legacyPathSegments.get(legacySegment);
