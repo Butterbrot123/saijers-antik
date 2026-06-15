@@ -1,19 +1,16 @@
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
-import BlogCard from "@/components/BlogCard";
 import Link from "next/link";
 import {
   ArrowRight,
   Camera,
   ClipboardCheck,
   MapPin,
-  MessageCircle,
   ShoppingBag,
   Star,
   Store
 } from "lucide-react";
 import { buyItems, featureItems, reviews } from "@/lib/siteData";
-import { blogPosts } from "@/lib/blogData";
 import { createMetadata, siteConfig } from "@/lib/seo";
 
 export const metadata = createMetadata({
@@ -178,6 +175,53 @@ export default function HomePage() {
         </div>
       </section>
 
+       <section className="cta">
+        <div className="container">
+          <div className="cta-card">
+            <div className="cta-copy">
+              <span className="eyebrow">Persönliche Einschätzung</span>
+              <h2>
+                Verkaufen, stöbern oder erst einmal in Ruhe fragen?
+              </h2>
+              <p>
+                Wir kaufen Antiquitäten, Schmuck, Design-Stücke und Trödel in Kappeln, Schleswig-Holstein sowie Umgebung, inklusive Hamburg, Flensburg, Eckernförde und Schleswig. 
+                Vereinbaren Sie ein kostenloses und unverbindliches Gespräch. 
+                Wir beantworten Ihre Fragen und beraten Sie beim fairen Ankauf Ihrer Schätze.
+                Oder besuchen Sie uns direkt in unserem Laden in Kappeln. 
+                Stöbern Sie in unserer Auswahl und entdecken Sie vielleicht Ihren neuen Schatz!
+              </p>
+             
+            </div>
+
+            <div className="cta-choice-grid">
+              <Link className="cta-choice-card" href="/versand">
+                <span>
+                  <ShoppingBag size={22} aria-hidden="true" />
+                </span>
+                <strong>Antik verkaufen</strong>
+                <p>Fotos senden, Termin anfragen oder Nachlass besprechen.</p>
+                <small>
+                  Kontakt aufnehmen
+                  <ArrowRight size={15} aria-hidden="true" />
+                </small>
+              </Link>
+              <Link className="cta-choice-card" href="/laden">
+                <span>
+                  <Store size={22} aria-hidden="true" />
+                </span>
+                <strong>Laden besuchen</strong>
+                <p>Antiquitäten, Trödel und besondere Fundstücke in Kappeln entdecken.</p>
+                <small>
+                  Laden ansehen
+                  <ArrowRight size={15} aria-hidden="true" />
+                </small>
+              </Link>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       <section className="section section-offwhite">
         <div className="container">
           <div className="section-intro reviews-intro">
@@ -250,74 +294,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <div className="section-intro">
-            <h2 className="section-heading">
-              Neues aus dem <span className="accent">Blog</span>
-            </h2>
-            <p className="lead">
-              Wissenswertes rund um Antiquitäten, Pflege, Sammlungen und Verkauf.
-            </p>
-          </div>
-          <div className="blog-preview-grid">
-            {blogPosts.slice(0, 3).map((post) => (
-              <BlogCard key={post.slug} post={post} compact />
-            ))}
-          </div>
-          <div className="section-action">
-            <Link className="button" href="/blog">
-              Alle Beiträge ansehen
-            </Link>
-          </div>
-        </div>
-      </section>
+     
 
-      <section className="cta">
-        <div className="container">
-          <div className="cta-card">
-            <div className="cta-copy">
-              <span className="eyebrow">Persönliche Einschätzung</span>
-              <h2>
-                Verkaufen, stöbern oder erst einmal in Ruhe fragen?
-              </h2>
-              <p>
-                Wir kaufen Antiquitäten, Schmuck, Design-Stücke und Trödel in Kappeln, Schleswig-Holstein sowie Umgebung, inklusive Hamburg, Flensburg, Eckernförde und Schleswig. 
-                Vereinbaren Sie ein kostenloses und unverbindliches Gespräch. 
-                Wir beantworten Ihre Fragen und beraten Sie beim fairen Ankauf Ihrer Schätze.
-                Oder besuchen Sie uns direkt in unserem Laden in Kappeln. 
-                Stöbern Sie in unserer Auswahl und entdecken Sie vielleicht Ihren neuen Schatz!
-              </p>
-             
-            </div>
+     
 
-            <div className="cta-choice-grid">
-              <Link className="cta-choice-card" href="/kontakt">
-                <span>
-                  <ShoppingBag size={22} aria-hidden="true" />
-                </span>
-                <strong>Antik verkaufen</strong>
-                <p>Fotos senden, Termin anfragen oder Nachlass besprechen.</p>
-                <small>
-                  Kontakt aufnehmen
-                  <ArrowRight size={15} aria-hidden="true" />
-                </small>
-              </Link>
-              <Link className="cta-choice-card" href="/laden">
-                <span>
-                  <Store size={22} aria-hidden="true" />
-                </span>
-                <strong>Laden besuchen</strong>
-                <p>Antiquitäten, Trödel und besondere Fundstücke in Kappeln entdecken.</p>
-                <small>
-                  Laden ansehen
-                  <ArrowRight size={15} aria-hidden="true" />
-                </small>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

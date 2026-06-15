@@ -111,7 +111,7 @@ export default function ContactPage() {
               zuzuordnen. Sie können es online ausfüllen, drucken und
               unterschrieben beilegen.
             </p>
-            <Link className="button" href="/begleitschreiben">
+            <Link className="button" href="/versand">
               Begleitschreiben öffnen
               <Send size={18} aria-hidden="true" />
             </Link>

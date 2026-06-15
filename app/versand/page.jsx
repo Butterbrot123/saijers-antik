@@ -19,7 +19,7 @@ export const metadata = createMetadata({
   title: "Versand & Begleitschreiben – Saijers Antik",
   description:
     "Wollen sie gerne ihre Ware zu uns schicken? Begleitschreiben für den Antik Ankauf ausfüllen, ausdrucken und Antik senden, geld erhalten",
-  path: "/begleitschreiben",
+  path: "/versand",
   image: "/images/postkarten-hintergrund.png",
   keywords: [
     "Begleitschreiben Antik Ankauf",
@@ -139,7 +139,7 @@ export default function ShippingLetterPage() {
           </>
         }
       >
-       Antiquitäten einfach per Post verkaufen. 
+       Verkaufen Sie ihre Schätze, einfach und Bequem per Post. 
        Begleitschreiben ausfüllen, ausdrucken und zusammen mit Ihrer Sendung an uns schicken. 
        Nach der Prüfung erhalten Sie ein faires Angebot und eine schnelle Auszahlung.
 
@@ -149,14 +149,12 @@ export default function ShippingLetterPage() {
         <div className="container letter-intro-grid">
           <div className="letter-intro-copy">
             <span className="eyebrow">Saijers Antik Ankauf</span>
-            <h2>Geld verdienen mit Ihrem Antiquitäten</h2>
+            <h2>Geld verdienen mit ihrem Trödel</h2>
             <p>
-             Wenn Sie Ihre Antiquitäten, Sammlerstücke oder Wertgegenstände verkaufen möchten, können Sie uns diese bequem zusenden. 
-             Wir sind stets auf der Suche nach interessanten Objekten wie Antiquitäten, Briefen, Dokumenten, Postkarten, Uhren, Schmuck, Münzen, Orden, Designobjekten und Sammlerstücken.
-             Falls Sie unsicher sind, ob sich ein Versand lohnt, senden Sie uns gerne vorab Fotos oder werfen Sie einen Blick auf unsere Ankaufbereiche. 
-             Alternativ können Sie uns auch telefonisch kontaktieren. 
-             Wir beraten Sie gerne, damit Ihre Sendung sicher bei uns ankommt und wir Ihnen ein faires Angebot machen können.
-
+            Möchten Sie alte Schätze, Sammlerstücke, Wertgegenstände oder Trödel verkaufen? Dann können Sie uns Ihre Objekte bequem per Post zusenden.
+Wir sind ständig auf der Suche nach interessanten Stücken aller Art, darunter Briefe, historische Dokumente, Postkarten, Uhren, Schmuck, Modeschmuck, Münzen, Orden, Designobjekte sowie seltene Sammlerartikel.
+Sind Sie unsicher, ob sich eine Einsendung lohnt? Dann senden Sie uns gerne vorab einige Fotos oder informieren Sie sich in unseren Ankaufbereichen über die von uns gesuchten Objekte.
+Selbstverständlich stehen wir Ihnen auch telefonisch zur Verfügung. Wir beraten Sie gerne persönlich, beantworten Ihre Fragen und geben Ihnen hilfreiche Hinweise für einen sicheren Versand. Nach Erhalt Ihrer Sendung prüfen wir die Stücke sorgfältig und unterbreiten Ihnen ein faires und transparentes Angebot.
             </p>
             <div className="shipping-intro-actions">
               <Link className="button" href="/kontakt">

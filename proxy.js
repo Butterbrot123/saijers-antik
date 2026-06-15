@@ -19,6 +19,11 @@ export function proxy(request) {
     return NextResponse.redirect(url, 308);
   }
 
+  if (url.pathname === "/begleitschreiben") {
+    url.pathname = "/versand";
+    return NextResponse.redirect(url, 308);
+  }
+
   const segments = url.pathname.split("/");
   const legacySegment = segments[1];
   const replacement = legacyPathSegments.get(legacySegment);

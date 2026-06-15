@@ -9,7 +9,7 @@ const staticRoutes = [
   "/ueber-uns",
   "/dienstleistungen",
   "/ankauf",
-  "/begleitschreiben",
+  "/versand",
   "/laden",
   "/kontakt",
   "/blog",
