@@ -135,13 +135,22 @@ export default function HomePage() {
             <span className="accent">Zusammenarbeiten?</span>
           </h2>
           <div className="feature-grid">
-            {featureItems.map(({ title, text, icon: Icon }) => (
+            {featureItems.map(({ title, label, text, icon: Icon, href, action }) => (
               <article className="feature-card" key={title}>
-                <div className="feature-icon">
-                  <Icon size={27} strokeWidth={1.8} />
+                <div className="feature-card-head">
+                  <div className="feature-icon">
+                    <Icon size={24} strokeWidth={1.9} />
+                  </div>
+                  {label ? <span>{label}</span> : null}
                 </div>
                 <h3>{title}</h3>
                 <p>{text}</p>
+                {href ? (
+                  <Link className="feature-link" href={href}>
+                    {action}
+                    <ArrowRight size={15} aria-hidden="true" />
+                  </Link>
+                ) : null}
               </article>
             ))}
           </div>
