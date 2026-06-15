@@ -157,29 +157,59 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section buy-overview-section">
         <div className="container">
-          <h2 className="section-heading">
-            Was <span className="accent">kaufen</span> wir an?
-          </h2>
-          <div className="buy-list">
+          <div className="section-intro buy-section-head">
+            <span className="eyebrow">Ankaufbereiche</span>
+            <h2 className="section-heading">
+              Was <span className="accent">kaufen</span> wir an?
+            </h2>
+            <p className="lead">
+              Eine Auswahl der Bereiche, für die wir regelmäßig Anfragen
+              erhalten. Auch wenn Ihr Objekt hier nicht dabei ist, lohnt sich
+              eine kurze Nachricht mit Fotos.
+            </p>
+          </div>
+
+          <div className="buy-card-grid">
             {buyItems.map((item) => (
-              <article className={`buy-row ${item.reverse ? "reverse" : ""}`} key={item.title}>
-                <Image
-                  src={item.image}
-                  alt={item.alt}
-                  width={1182}
-                  height={887}
-                  sizes="(max-width: 980px) 100vw, 50vw"
-                />
-                <div className="buy-copy">
+              <article className="buy-card" key={item.title}>
+                <Link className="buy-card-media" href={item.href}>
+                  <Image
+                    src={item.image}
+                    alt={item.alt}
+                    width={1182}
+                    height={887}
+                    sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw"
+                  />
+                </Link>
+                <div className="buy-card-body">
+                  <span className="buy-card-kicker">{item.category}</span>
                   <h3>
-                    <AccentTitle title={item.title} accent={item.accent} />
+                    <Link href={item.href}>
+                      <AccentTitle title={item.title} accent={item.accent} />
+                    </Link>
                   </h3>
                   <p>{item.text}</p>
+                  <ul>
+                    {item.highlights.map((highlight) => (
+                      <li key={highlight}>{highlight}</li>
+                    ))}
+                  </ul>
+                  <Link className="buy-card-link" href={item.href}>
+                    Mehr erfahren
+                    <ArrowRight size={15} aria-hidden="true" />
+                  </Link>
                 </div>
               </article>
             ))}
+          </div>
+
+          <div className="section-action buy-overview-action">
+            <Link className="button" href="/ankauf">
+              Alle Ankaufbereiche ansehen
+              <ArrowRight size={18} aria-hidden="true" />
+            </Link>
           </div>
         </div>
       </section>
