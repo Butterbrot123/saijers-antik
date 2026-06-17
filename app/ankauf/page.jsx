@@ -48,20 +48,8 @@ const trustItems = [
   }
 ];
 
-const categoryImages = {
-  "alte-buecher": "/images/buch2.png",
-  "schlesien-erinnerungsstuecke": "/images/schlesien.png",
-  "kolonien-erinnerungsstuecke": "/images/asia.png",
-  "medaillen": "/images/orden2.png",
-  "schallplatten": "/images/lp-hintergrund.jpg",
-  "alte-geldscheine": "/images/dokumente2.jpeg",
-  "bestecke": "/images/besteck2.jpg",
-  "briefmarken": "/images/postkarte.jpeg",
-  "altes-spielzeug": "/images/foto.jpg"
-};
-
 function getCategoryImage(item) {
-  return categoryImages[item.slug] ?? item.image ?? item.header ?? "/images/dokumente1.jpeg";
+  return item.image ?? item.header ?? "/images/dokumente1.jpeg";
 }
 
 const photoGuideItems = [
