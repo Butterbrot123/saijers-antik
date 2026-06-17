@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { AlertCircle, CheckCircle2, ImagePlus, Send, Trash2 } from "lucide-react";
+import { trackGoogleAdsConversion } from "@/lib/googleAds";
 
 const MAX_FILES = 6;
 const MAX_FILE_SIZE = 4 * 1024 * 1024;
@@ -184,6 +185,7 @@ export default function ContactForm() {
         type: "success",
         message: result.message || "Ihre Anfrage wurde gesendet."
       });
+      trackGoogleAdsConversion("contact");
     } catch (error) {
       setSubmitStatus({
         type: "error",

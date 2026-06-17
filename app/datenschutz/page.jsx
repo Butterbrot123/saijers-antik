@@ -62,6 +62,23 @@ export default function PrivacyPage() {
             Ihre Anfrage an uns übermittelt.
           </p>
 
+          <h3>Google Ads und Conversion-Tracking</h3>
+          <p>
+            Wir können Google Ads einsetzen, um die Wirksamkeit unserer Werbung
+            zu messen. Dabei können nach Ihrer ausdrücklichen Zustimmung
+            Marketing-Cookies gesetzt und Conversion-Ereignisse erfasst werden,
+            zum Beispiel wenn ein Kontaktformular oder ein Begleitschreiben
+            erfolgreich abgesendet wurde. Ohne Ihre Zustimmung wird Google Ads
+            auf unserer Website nicht geladen.
+          </p>
+          <p>
+            Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung nach Art.
+            6 Abs. 1 lit. a DSGVO. Sie können Ihre Entscheidung über den
+            Cookie-Hinweis auf der Website ändern. Weitere Informationen zur
+            Datenverarbeitung durch Google finden Sie in den Datenschutz- und
+            Nutzungsbedingungen von Google.
+          </p>
+
           <h3>Betroffenenrechte & Speicherdauer</h3>
           <p>
             Sie haben Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruchsrechte nach den Artikeln 15–21 DSGVO. Daten werden nur so lange gespeichert, wie es für die Verarbeitungszwecke erforderlich oder gesetzlich vorgeschrieben ist.
@@ -78,7 +95,7 @@ export default function PrivacyPage() {
           </p>
 
           <p>
-            Letzte Aktualisierung: 29.11.2023
+            Letzte Aktualisierung: 15.06.2026
           </p>
         </div>
       </section>

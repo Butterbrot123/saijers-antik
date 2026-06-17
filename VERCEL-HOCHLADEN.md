@@ -31,6 +31,9 @@ RESEND_FROM=Saijers Antik <kontakt@saijersantik.de>
 SAIJERS_LETTER_TO=inessayers@googlemail.com
 SAIJERS_CONTACT_TO=inessayers@googlemail.com
 RESEND_BUY_REQUEST_TEMPLATE_ID=ihre-ankauf-anfrage-bei-saijers-antik
+NEXT_PUBLIC_GOOGLE_ADS_ID=AW-XXXXXXXXXX
+NEXT_PUBLIC_GOOGLE_ADS_CONTACT_CONVERSION_LABEL=xxxxxxxxxxxxxxxx
+NEXT_PUBLIC_GOOGLE_ADS_LETTER_CONVERSION_LABEL=xxxxxxxxxxxxxxxx
 ```
 
 Nach dem Eintragen der Variablen muss neu deployed werden.
@@ -39,6 +42,10 @@ Nach dem Eintragen der Variablen muss neu deployed werden.
 Resend-Templates fuer die interne Ankauf-Anfrage. Wenn das Template in Resend
 noch nicht bereit ist, nutzt die Website automatisch die eingebaute E-Mail-
 Vorlage als Ersatz.
+
+Die `NEXT_PUBLIC_GOOGLE_ADS_*` Werte kommen aus Google Ads. Die Website laedt
+Google Ads erst nach Zustimmung im Cookie-Hinweis. Nach dem Eintragen der Werte
+in Vercel ist ein neues Deployment erforderlich.
 
 ## E-Mail-Absender
 

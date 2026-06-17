@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { localSeoPages } from "@/lib/localSeoData";
 import { footerLinks, socials } from "@/lib/siteData";
 
 export default function Footer() {
@@ -68,6 +69,17 @@ export default function Footer() {
             ))}
           </div>
         </section>
+      </div>
+      <div className="container footer-city-links">
+        <h3>Antik Ankauf in der Region</h3>
+        <nav aria-label="Antik Ankauf nach Stadt">
+          {localSeoPages.map((page) => (
+            <Link href={`/antik-ankauf/${page.slug}`} key={page.slug}>
+              {page.city}
+            </Link>
+          ))}
+          <Link href="/antik-ankauf">Weitere Regionen</Link>
+        </nav>
       </div>
       <div className="footer-bottom">Entwickelt mit <span className="accent">❤️ von Saijers Antik</span></div>
     </footer>

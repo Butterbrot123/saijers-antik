@@ -11,6 +11,7 @@ import {
   Store
 } from "lucide-react";
 import { buyItems, featureItems, reviews } from "@/lib/siteData";
+import { localSeoPages } from "@/lib/localSeoData";
 import { createMetadata, siteConfig } from "@/lib/seo";
 
 export const metadata = createMetadata({
@@ -60,17 +61,6 @@ const photoSteps = [
     text: "Wir melden uns persönlich mit einer ehrlichen ersten Rückmeldung.",
     icon: Star
   }
-];
-
-const localAreas = [
-  "Kappeln",
-  "Schleswig",
-  "Eckernförde",
-  "Flensburg",
-  "Kiel",
-  "Husum",
-  "Hamburg",
-  "Schleswig-Holstein"
 ];
 
 export default function HomePage() {
@@ -325,9 +315,14 @@ export default function HomePage() {
           <aside className="local-seo-card">
             <h3>Regionen, aus denen wir häufig Anfragen bekommen</h3>
             <ul>
-              {localAreas.map((area) => (
-                <li key={area}>{area}</li>
+              {localSeoPages.map((area) => (
+                <li key={area.slug}>
+                  <Link href={`/antik-ankauf/${area.slug}`}>{area.city}</Link>
+                </li>
               ))}
+              <li>
+                <Link href="/antik-ankauf">Alle Regionen ansehen</Link>
+              </li>
             </ul>
           </aside>
         </div>

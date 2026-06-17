@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Plus, Printer, Send, Trash2 } from "lucide-react";
+import { trackGoogleAdsConversion } from "@/lib/googleAds";
 
 const materialOptions = [
   "Alte Briefe / Dokumente",
@@ -254,6 +255,7 @@ export default function ShippingLetterForm() {
         type: "success",
         message: `Das Begleitschreiben wurde übermittelt. Ihre Vorgangsnummer lautet ${result.caseNumber}.`
       });
+      trackGoogleAdsConversion("letter");
     } catch (error) {
       setSubmitStatus({
         type: "error",

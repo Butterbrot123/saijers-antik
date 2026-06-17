@@ -1,4 +1,5 @@
 import { blogPosts } from "@/lib/blogData";
+import { localSeoPages } from "@/lib/localSeoData";
 import { ankaufCategories } from "@/lib/siteData";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -9,6 +10,7 @@ const staticRoutes = [
   "/ueber-uns",
   "/dienstleistungen",
   "/ankauf",
+  "/antik-ankauf",
   "/versand",
   "/laden",
   "/kontakt",
@@ -34,6 +36,13 @@ export default function sitemap() {
     priority: 0.8
   }));
 
+  const localPages = localSeoPages.map((page) => ({
+    url: absoluteUrl(`/antik-ankauf/${page.slug}`),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.75
+  }));
+
   const blogPages = blogPosts.map((post) => ({
     url: absoluteUrl(`/blog/${post.slug}`),
     lastModified: now,
@@ -41,5 +50,5 @@ export default function sitemap() {
     priority: 0.55
   }));
 
-  return [...staticPages, ...categoryPages, ...blogPages];
+  return [...staticPages, ...categoryPages, ...localPages, ...blogPages];
 }
