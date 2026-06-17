@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import { ChevronRight } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { ankaufCategories } from "@/lib/siteData";
 import { absoluteUrl, createMetadata } from "@/lib/seo";
@@ -206,6 +207,16 @@ export default async function CategoryPage({ params }) {
       >
         {content.heroDescription}
       </PageHero>
+
+      <nav className="breadcrumbs" aria-label="Breadcrumb">
+        <div className="container breadcrumbs-inner">
+          <Link href="/">Startseite</Link>
+          <ChevronRight size={15} aria-hidden="true" />
+          <Link href="/ankauf">Ankauf</Link>
+          <ChevronRight size={15} aria-hidden="true" />
+          <span aria-current="page">{category.title} verkaufen</span>
+        </div>
+      </nav>
 
       <section className="section category-overview-section">
         <div className="container category-page-layout">

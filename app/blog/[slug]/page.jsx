@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { blogPosts } from "@/lib/blogData";
 import Image from "next/image";
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 import { absoluteUrl, createMetadata } from "@/lib/seo";
 
 export const dynamicParams = false;
@@ -124,6 +125,15 @@ export default async function BlogPostPage({ params }) {
       <PageHero title={post.title} accent="Blog" backgroundImage={post.headerImage}>
         {post.excerpt}
       </PageHero>
+      <nav className="breadcrumbs" aria-label="Breadcrumb">
+        <div className="container breadcrumbs-inner">
+          <Link href="/">Startseite</Link>
+          <ChevronRight size={15} aria-hidden="true" />
+          <Link href="/blog">Blog</Link>
+          <ChevronRight size={15} aria-hidden="true" />
+          <span aria-current="page">{post.title}</span>
+        </div>
+      </nav>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}

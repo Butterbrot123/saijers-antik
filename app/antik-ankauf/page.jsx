@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { ArrowRight, MapPin } from "lucide-react";
+import { ArrowRight, ChevronRight, MapPin } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import { localSeoPages } from "@/lib/localSeoData";
-import { createMetadata } from "@/lib/seo";
+import { absoluteUrl, createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
   title: "Antik Ankauf in Schleswig-Holstein & Umgebung – Saijers Antik",
@@ -19,6 +19,25 @@ export const metadata = createMetadata({
   ]
 });
 
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Startseite",
+      item: absoluteUrl("/")
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Antik Ankauf",
+      item: absoluteUrl("/antik-ankauf")
+    }
+  ]
+};
+
 export default function LocalOverviewPage() {
   return (
     <>
@@ -30,6 +49,19 @@ export default function LocalOverviewPage() {
         Antiquitäten, Schmuck, Dokumente, Sammlungen und Nachlässe verkaufen:
         regional verwurzelt in Kappeln, erreichbar für viele Orte im Norden.
       </PageHero>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
+      <nav className="breadcrumbs" aria-label="Breadcrumb">
+        <div className="container breadcrumbs-inner">
+          <Link href="/">Startseite</Link>
+          <ChevronRight size={15} aria-hidden="true" />
+          <span aria-current="page">Antik Ankauf</span>
+        </div>
+      </nav>
 
       <section className="section local-landing-section">
         <div className="container">
@@ -54,7 +86,7 @@ export default function LocalOverviewPage() {
                 <h3>{page.title}</h3>
                 <p>{page.description}</p>
                 <Link href={`/antik-ankauf/${page.slug}`}>
-                  Region ansehen
+                  Antik Ankauf in {page.city}
                   <ArrowRight size={16} aria-hidden="true" />
                 </Link>
               </article>

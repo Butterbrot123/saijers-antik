@@ -92,7 +92,7 @@ function getLocalFaqItems(page) {
     {
       question: `Ist ein Hausbesuch in ${page.city} möglich?`,
       answer:
-        `Ja, ein Hausbesuch ist in ${page.city} möglich. Aber sie Können auch gerne in unseren Laden nach Kappeln kommen oder uns Fotos und Informationen zu Ihren Stücken senden. Wir besprechen dann gemeinsam, welcher Weg am besten passt.`
+        `Ja, ein Hausbesuch ist in ${page.city} möglich. Sie können aber auch gerne in unseren Laden nach Kappeln kommen oder uns Fotos und Informationen zu Ihren Stücken senden. Wir besprechen dann gemeinsam, welcher Weg am besten passt.`
     },
     {
       question: "Kann ich meine Stücke auch per Versand anbieten?",
@@ -142,6 +142,9 @@ export default async function LocalCityPage({ params }) {
   if (!page) notFound();
 
   const faqItems = getLocalFaqItems(page);
+  const relatedLocalPages = localSeoPages
+    .filter((item) => item.slug !== page.slug)
+    .slice(0, 4);
 
   return (
     <>
@@ -266,6 +269,8 @@ export default async function LocalCityPage({ params }) {
           </article>
         </div>
       </section>
+
+      
 
       <section className="section local-city-cta-section">
         <div className="container local-city-cta panel">

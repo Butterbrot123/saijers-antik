@@ -15,7 +15,7 @@ export const metadata = {
     description: siteConfig.description,
     path: "/"
   }),
-  metadataBase: new URL("https://saijersantik.de"),
+  metadataBase: new URL(siteConfig.url),
   authors: [{ name: "Saijers Antik" }],
   creator: "Saijers Antik",
   publisher: "Saijers Antik",
