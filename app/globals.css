@@ -6073,6 +6073,15 @@ textarea {
   box-shadow: var(--shadow-lift);
 }
 
+.cookie-banner-settings {
+  grid-template-columns: minmax(0, 1fr);
+  width: min(calc(100% - 48px), 720px);
+}
+
+.cookie-copy {
+  min-width: 0;
+}
+
 .cookie-banner strong {
   display: block;
   color: var(--blue);
@@ -6102,6 +6111,36 @@ textarea {
 .cookie-actions .button {
   min-height: 44px;
   padding: 10px 16px;
+}
+
+.cookie-options {
+  display: grid;
+  gap: 12px;
+}
+
+.cookie-option {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  padding: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.cookie-option input {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  accent-color: var(--orange);
+}
+
+.cookie-option small {
+  display: block;
+  margin-top: 4px;
+  color: #64748b;
+  line-height: 1.45;
 }
 
 .cookie-settings-button {
@@ -6137,5 +6176,9 @@ textarea {
   .cookie-actions,
   .cookie-actions .button {
     width: 100%;
+  }
+
+  .cookie-actions {
+    justify-content: stretch;
   }
 }

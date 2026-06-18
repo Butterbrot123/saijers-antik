@@ -17,6 +17,8 @@ function getSavedConsent() {
 export default function GoogleAdsConsent() {
   const [consent, setConsent] = useState(null);
   const [isReady, setIsReady] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [marketingEnabled, setMarketingEnabled] = useState(true);
 
   useEffect(() => {
     setConsent(getSavedConsent());
@@ -48,6 +50,7 @@ export default function GoogleAdsConsent() {
     window.localStorage.setItem(GOOGLE_ADS_CONSENT_KEY, nextConsent);
     applyGoogleConsent(nextConsent);
     setConsent(nextConsent);
+    setShowSettings(false);
     window.dispatchEvent(
       new CustomEvent(GOOGLE_ADS_CONSENT_EVENT, {
         detail: { consent: nextConsent }
@@ -106,23 +109,89 @@ export default function GoogleAdsConsent() {
       ) : null}
 
       {showBanner ? (
-        <div className="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie-Hinweis">
-          <div>
-            <strong>Marketing-Cookies</strong>
-            <p>
-              Wir nutzen Google Ads und Google Analytics, um Anfragen und Werbung besser zu messen.
-              Das Tracking startet erst, wenn Sie zustimmen.
-            </p>
-            <Link href="/datenschutz">Mehr erfahren</Link>
-          </div>
-          <div className="cookie-actions">
-            <button type="button" className="button button-outline-dark" onClick={() => updateConsent("denied")}>
-              Ablehnen
-            </button>
-            <button type="button" className="button" onClick={() => updateConsent("granted")}>
-              Akzeptieren
-            </button>
-          </div>
+        <div
+          className={showSettings ? "cookie-banner cookie-banner-settings" : "cookie-banner"}
+          role="dialog"
+          aria-live="polite"
+          aria-label="Cookie-Hinweis"
+        >
+          {showSettings ? (
+            <>
+              <div className="cookie-copy">
+                <strong>Datenschutz-Einstellungen</strong>
+                <p>
+                  Notwendige Cookies sichern die Grundfunktionen der Website. Marketing und Analyse
+                  helfen uns, Anfragen, Werbung und Nutzung besser zu verstehen.
+                </p>
+                <Link href="/datenschutz">Datenschutzerklärung</Link>
+              </div>
+
+              <div className="cookie-options">
+                <label className="cookie-option">
+                  <input type="checkbox" checked disabled />
+                  <span>
+                    <strong>Notwendige Cookies</strong>
+                    <small>Immer aktiv, damit die Website technisch funktioniert.</small>
+                  </span>
+                </label>
+
+                <label className="cookie-option">
+                  <input
+                    type="checkbox"
+                    checked={marketingEnabled}
+                    onChange={(event) => setMarketingEnabled(event.target.checked)}
+                  />
+                  <span>
+                    <strong>Marketing & Analyse</strong>
+                    <small>Google Ads und Google Analytics nach Ihrer Zustimmung.</small>
+                  </span>
+                </label>
+              </div>
+
+              <div className="cookie-actions">
+                <button
+                  type="button"
+                  className="button button-outline-dark"
+                  onClick={() => setShowSettings(false)}
+                >
+                  Zurück
+                </button>
+                <button
+                  type="button"
+                  className="button button-outline-dark"
+                  onClick={() => updateConsent(marketingEnabled ? "granted" : "denied")}
+                >
+                  Auswahl speichern
+                </button>
+                <button type="button" className="button" onClick={() => updateConsent("granted")}>
+                  Alle akzeptieren
+                </button>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="cookie-copy">
+                <strong>Tracking und Cookies nutzen</strong>
+                <p>
+                  Wir nutzen Google Ads und Google Analytics, um unsere Werbung zu messen und die
+                  Website zu verbessern. Das Tracking startet erst nach Ihrer Zustimmung.
+                </p>
+                <Link href="/datenschutz">Mehr erfahren</Link>
+              </div>
+              <div className="cookie-actions">
+                <button
+                  type="button"
+                  className="button button-outline-dark"
+                  onClick={() => setShowSettings(true)}
+                >
+                  Einstellungen
+                </button>
+                <button type="button" className="button" onClick={() => updateConsent("granted")}>
+                  Alle akzeptieren
+                </button>
+              </div>
+            </>
+          )}
         </div>
       ) : null}
 
