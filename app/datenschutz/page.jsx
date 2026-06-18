@@ -62,14 +62,15 @@ export default function PrivacyPage() {
             Ihre Anfrage an uns übermittelt.
           </p>
 
-          <h3>Google Ads und Conversion-Tracking</h3>
+          <h3>Google Ads, Google Analytics und Conversion-Tracking</h3>
           <p>
-            Wir können Google Ads einsetzen, um die Wirksamkeit unserer Werbung
-            zu messen. Dabei können nach Ihrer ausdrücklichen Zustimmung
-            Marketing-Cookies gesetzt und Conversion-Ereignisse erfasst werden,
-            zum Beispiel wenn ein Kontaktformular oder ein Begleitschreiben
-            erfolgreich abgesendet wurde. Ohne Ihre Zustimmung wird Google Ads
-            auf unserer Website nicht geladen.
+            Wir können Google Ads und Google Analytics einsetzen, um die
+            Wirksamkeit unserer Werbung und die Nutzung unserer Website zu
+            messen. Dabei können nach Ihrer ausdrücklichen Zustimmung
+            Marketing- und Analyse-Cookies gesetzt sowie Conversion-Ereignisse
+            erfasst werden, zum Beispiel wenn ein Kontaktformular oder ein
+            Begleitschreiben erfolgreich abgesendet wurde. Ohne Ihre Zustimmung
+            werden diese Google-Dienste auf unserer Website nicht geladen.
           </p>
           <p>
             Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung nach Art.

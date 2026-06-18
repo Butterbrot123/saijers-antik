@@ -56,11 +56,12 @@ export default function GoogleAdsConsent() {
   }
 
   const showBanner = isReady && !consent;
-  const canLoadGoogleAds = isReady && consent === "granted" && googleAdsConfig.id;
+  const googleTagId = googleAdsConfig.id || googleAdsConfig.analyticsId;
+  const canLoadGoogleTags = isReady && consent === "granted" && googleTagId;
 
   return (
     <>
-      {canLoadGoogleAds ? (
+      {canLoadGoogleTags ? (
         <>
           <Script
             id="google-ads-consent-default"
@@ -79,7 +80,7 @@ export default function GoogleAdsConsent() {
             }}
           />
           <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${googleAdsConfig.id}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=${googleTagId}`}
             strategy="afterInteractive"
           />
           <Script
@@ -96,7 +97,8 @@ export default function GoogleAdsConsent() {
                   ad_personalization: 'granted',
                   analytics_storage: 'granted'
                 });
-                gtag('config', '${googleAdsConfig.id}');
+                ${googleAdsConfig.id ? `gtag('config', '${googleAdsConfig.id}');` : ""}
+                ${googleAdsConfig.analyticsId ? `gtag('config', '${googleAdsConfig.analyticsId}');` : ""}
               `
             }}
           />
@@ -108,7 +110,7 @@ export default function GoogleAdsConsent() {
           <div>
             <strong>Marketing-Cookies</strong>
             <p>
-              Wir nutzen Google Ads, um Anfragen und Werbung besser zu messen.
+              Wir nutzen Google Ads und Google Analytics, um Anfragen und Werbung besser zu messen.
               Das Tracking startet erst, wenn Sie zustimmen.
             </p>
             <Link href="/datenschutz">Mehr erfahren</Link>
